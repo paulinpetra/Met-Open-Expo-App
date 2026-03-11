@@ -1,5 +1,5 @@
 🏛️ Met Open - Museum Explorer
-![Home Screen](assets/screenshots/home-screen.jpg)
+<img src="assets/screenshots/home-screen.jpg" alt="Met Open Home Screen" width="300"/>
 
 A high-end mobile gallery application built with React Native and Expo, providing a modern interface for the Metropolitan Museum of Art's Open Access collection.
 
