@@ -54,9 +54,13 @@ Met Open uses three complementary typefaces to create a balance between elegance
 
 ## 🎨 Color System
 
+## 🎨 Color System
+
 The visual identity of Met Open is built around a warm museum-inspired dark theme designed to feel elegant and gallery-like.
 
-Colors are defined as centralized design tokens in `theme/tokens.js` to ensure consistency across the app.
+The palette combines deep charcoal backgrounds with burnt orange highlights to create strong contrast while maintaining a refined aesthetic.
+
+Colors are defined as centralized **design tokens in `theme/tokens.js`**, ensuring consistent styling across the application.
 
 | Swatch  | Name               | Hex     | Usage                           |
 | ------- | ------------------ | ------- | ------------------------------- |
