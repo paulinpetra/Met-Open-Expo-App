@@ -1,5 +1,8 @@
 🏛️ Met Open - Museum Explorer
 
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+
 <img src="assets/screenshots/home-screen.jpg" alt="Met Open Home Screen" width="300"/>
 
 A high-end mobile gallery application built with React Native and Expo, providing a modern interface for the Metropolitan Museum of Art's Open Access collection.
@@ -8,8 +11,7 @@ A high-end mobile gallery application built with React Native and Expo, providin
 
 This project utilizes a custom design system that bridges code and design:
 
-Styling: NativeWind (https://www.nativewind.dev/
-) – Tailwind CSS for React Native
+Styling: NativeWind (https://www.nativewind.dev/) – Tailwind CSS for React Native
 
 Architecture: Centralized design tokens located in theme/tokens.js
 
@@ -55,13 +57,13 @@ npx expo start -c
 
 3. View the App
 
-Android: Press a to open in the Android Emulator.
-iOS: Press i to open in the iOS Simulator.
+Android: Press a to open in the Android Emulator.  
+iOS: Press i to open in the iOS Simulator.  
 Physical Device: Scan the QR code displayed in your terminal using the Expo Go app (Android) or the Camera app (iOS).
 
 📂 Project Structure
 
-app/ – Main application logic and routing
-app/(tabs)/ – The tab-based navigation group (Home, Departments, etc.)
-theme/ – Source of truth for design tokens (colors, spacing, radius)
+app/ – Main application logic and routing  
+app/(tabs)/ – The tab-based navigation group (Home, Departments, etc.)  
+theme/ – Source of truth for design tokens (colors, spacing, radius)  
 assets/ – Fonts and static image resources.
