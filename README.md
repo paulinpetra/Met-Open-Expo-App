@@ -54,23 +54,21 @@ Met Open uses three complementary typefaces to create a balance between elegance
 
 ## 🎨 Color System
 
-## 🎨 Color System
-
 The visual identity of Met Open is built around a warm museum-inspired dark theme designed to feel elegant and gallery-like.
 
 The palette combines deep charcoal backgrounds with burnt orange highlights to create strong contrast while maintaining a refined aesthetic.
 
 Colors are defined as centralized **design tokens in `theme/tokens.js`**, ensuring consistent styling across the application.
 
-| Swatch                                                                                                                        | Name               | Hex     | Usage                           |
-| ----------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------- | ------------------------------- |
-| <span style="display:inline-block;width:18px;height:18px;background:#1A1614;border-radius:4px;border:1px solid #555;"></span> | charcoal           | #1A1614 | Main app background             |
-| <span style="display:inline-block;width:18px;height:18px;background:#241D1A;border-radius:4px;border:1px solid #555;"></span> | charcoal-light     | #241D1A | Cards and elevated surfaces     |
-| <span style="display:inline-block;width:18px;height:18px;background:#EDEAE7;border-radius:4px;border:1px solid #ccc;"></span> | ivory              | #EDEAE7 | Primary text                    |
-| <span style="display:inline-block;width:18px;height:18px;background:#B8B2AE;border-radius:4px;border:1px solid #ccc;"></span> | ivory-muted        | #B8B2AE | Secondary text                  |
-| <span style="display:inline-block;width:18px;height:18px;background:#C2410C;border-radius:4px;border:1px solid #555;"></span> | burnt-orange       | #C2410C | Primary accent                  |
-| <span style="display:inline-block;width:18px;height:18px;background:#EA580C;border-radius:4px;border:1px solid #555;"></span> | burnt-orange-light | #EA580C | Hover and active states         |
-| <span style="display:inline-block;width:18px;height:18px;background:#3A2F2A;border-radius:4px;border:1px solid #555;"></span> | muted              | #3A2F2A | Dividers and subtle UI elements |
+| Swatch                                                     | Name               | Hex     | Usage                           |
+| ---------------------------------------------------------- | ------------------ | ------- | ------------------------------- |
+| ![#1A1614](https://img.shields.io/badge/%20-1A1614-1A1614) | charcoal           | #1A1614 | Main app background             |
+| ![#241D1A](https://img.shields.io/badge/%20-241D1A-241D1A) | charcoal-light     | #241D1A | Cards and elevated surfaces     |
+| ![#EDEAE7](https://img.shields.io/badge/%20-EDEAE7-EDEAE7) | ivory              | #EDEAE7 | Primary text                    |
+| ![#B8B2AE](https://img.shields.io/badge/%20-B8B2AE-B8B2AE) | ivory-muted        | #B8B2AE | Secondary text                  |
+| ![#C2410C](https://img.shields.io/badge/%20-C2410C-C2410C) | burnt-orange       | #C2410C | Primary accent                  |
+| ![#EA580C](https://img.shields.io/badge/%20-EA580C-EA580C) | burnt-orange-light | #EA580C | Hover and active states         |
+| ![#3A2F2A](https://img.shields.io/badge/%20-3A2F2A-3A2F2A) | muted              | #3A2F2A | Dividers and subtle UI elements |
 
 ## 🚀 Getting Started
 
