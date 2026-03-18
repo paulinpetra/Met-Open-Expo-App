@@ -6,12 +6,14 @@ import { MetObject } from '../../features/home/types';
 
 interface ArtworkCardProps {
   artwork: MetObject;
+  onPress?: () => void;
 }
 
-export function ArtworkCard({ artwork }: ArtworkCardProps) {
+export function ArtworkCard({ artwork, onPress }: ArtworkCardProps) {
   return (
     <TouchableOpacity
       activeOpacity={0.9}
+      onPress={onPress}
       className="mr-5 h-[420px] w-72 overflow-hidden rounded-lg bg-card shadow-2xl">
       <Image
         source={{ uri: artwork.primaryImageSmall || artwork.primaryImage }}

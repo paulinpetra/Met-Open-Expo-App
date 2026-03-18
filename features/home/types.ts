@@ -6,3 +6,15 @@ export interface MetObject {
   artistDisplayName: string;
   department: string;
 }
+
+export interface MetObjectDetails extends MetObject {
+  objectDate: string;
+  culture: string;
+  medium: string;
+  dimensions: string;
+  repository: string;
+  creditLine: string;
+  accessionNumber: string;
+  city: string;
+  country: string;
+}

@@ -36,6 +36,15 @@ export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="artwork/[id]"
+        options={{
+          title: 'Artwork',
+          headerStyle: { backgroundColor: 'rgb(26 22 20)' },
+          headerTintColor: 'rgb(250 246 243)',
+          headerShadowVisible: false,
+        }}
+      />
     </Stack>
   );
 }

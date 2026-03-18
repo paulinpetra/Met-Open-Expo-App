@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, FlatList, ActivityIndicator, ScrollView } from 'react-native';
 
+import { useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 
 import { ArtworkCard } from '../../components/home/ArtworkCard';
@@ -10,6 +11,7 @@ import { StatCard } from '../../components/home/StatCard';
 import { useFeaturedArtworks } from '../../features/home/hooks/useFeaturedArtworks';
 
 export default function HomeScreen() {
+  const router = useRouter();
   const { artworks, loading } = useFeaturedArtworks();
 
   if (loading) {
@@ -47,7 +49,12 @@ export default function HomeScreen() {
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={{ paddingHorizontal: 24 }}
             keyExtractor={(item) => `feat-${item.objectID}`}
-            renderItem={({ item }) => <ArtworkCard artwork={item} />}
+            renderItem={({ item }) => (
+              <ArtworkCard
+                artwork={item}
+                onPress={() => router.push(`/artwork/${item.objectID}`)}
+              />
+            )}
           />
         </View>
 
